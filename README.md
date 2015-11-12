@@ -24,6 +24,16 @@ Some of the optional or alternative flags:
     --threads [value] (default: 1)
     --MaAFRegression [intValueFromCount] [intValueStep] [intValueToCount] (from MAF counts, interval MAF counts, to MAF counts)
 
+### Example
+
+    java -jar IBDMUT.jar \
+    	--plinkList EXAMPLES/plinkList.txt \
+    	--demography EXAMPLES/10K.demo \
+    	--lenRange 1.6 5.0 --offsetCM 0.5 \
+    	--MaAFRegression 50 5 250 \
+    	--jackknife \
+    	--threads 4
+
 ### Dependencies
 
 (all in lib folder)

@@ -31,6 +31,7 @@ Some of the optional or alternative flags:
     	--demography EXAMPLES/10K.demo \
     	--lenRange 1.6 5.0 --offsetCM 0.5 \
     	--MaAFRegression 50 5 250 \
+    	--saveBin .save \
     	--jackknife \
     	--threads 4
 

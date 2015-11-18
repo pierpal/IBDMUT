@@ -13,16 +13,16 @@ Options:
 	
 Some of the optional or alternative flags:
 
-    --plinkList [file] (substitutes --plink and --match for many files)
-    --maskList [file] (substitutes --mask for many files)
+    --MaAFRegression [intValueFromCount] [intValueStep] [intValueToCount] (from MAF counts, interval MAF counts, to MAF counts)
+    --offsetCM [value] (distance to be excluded from edges; default: 0.0)
     --lenRange [fromLen] [toLen] (default: 2.0 5.0)
+    --plinkList [file] (substitutes --plink and --match for many files)
     --jackknife (only if --plinkList is used with several independent regions)
     --saveBin [suffix] (saves a binary file, which will load much faster than the ped.gz file)
     --loadBin [suffix] (load a binary file)
-    --offsetCM [value] (distance to be excluded from edges; default: 0.0)
     --mask [file] (bed file with regions to be included in analysis)
+    --maskList [file] (substitutes --mask for many files)
     --threads [value] (default: 1)
-    --MaAFRegression [intValueFromCount] [intValueStep] [intValueToCount] (from MAF counts, interval MAF counts, to MAF counts)
 
 ### Example
 

@@ -1,7 +1,10 @@
 # IBDMUT
-Infer mutation and gene conversion rates using identical-by-descent segments
 
-Contact: Pier Palamara, ppalama AT hsph DOT harvard DOTAGAIN edu
+**Reference:** P.F. Palamara, L. Francioli, P. Wilton, G. Genovese, A. Gusev, H. Finucane, S. Sankararaman, GoNL Consortium, S. Sunyaev, P. de Bakker, J. Wakeley, I. Pe’er, A. Price, "[Leveraging Distant Relatedness to Quantify Human Mutation and Gene-Conversion Rates](www.cell.com/ajhg/abstract/S0002-9297(15)00408-5)", American Journal of Human Genetics, 2015.
+
+**Contact:** Pier Palamara, ppalama AT hsph DOT harvard DOTAGAIN edu
+
+IBDMUT Infers mutation and gene conversion rates using identical-by-descent segments
 
 ### Usage
 
@@ -47,11 +50,3 @@ Minlog: https://github.com/EsotericSoftware/minlog/
 Objenesis: https://github.com/easymock/objenesis
 
 Reflactasm: https://github.com/EsotericSoftware/reflectasm
-
-### Source code
-
-included in jar file
-
-### Citation
-
-- P.F. Palamara et al. "Leveraging distant relatedness to quantify human mutation and gene conversion rates", American Journal of Human Genetics, 2015.

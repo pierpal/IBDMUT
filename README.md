@@ -10,7 +10,7 @@ IBDMUT Infers mutation and gene conversion rates using identical-by-descent segm
 
 Options:
 
-    --demography [file] (demographic model with format "generation	size" for each line)
+    --demography [file] (demographic model with format "generation	size" for each line. Sizes are haploid)
     --plink [fileRoot] (plink file root; expects .ped.gz, .map, and .frq)
     --match [file] (match.gz file in GERMLINE format)
 	
